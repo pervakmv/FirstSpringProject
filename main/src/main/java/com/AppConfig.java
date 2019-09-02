@@ -1,10 +1,13 @@
-package com.lesson2;
+package com;
 
+import com.lesson2.Order;
+import com.lesson2.OrderDAO;
+import com.lesson2.OrderService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Application {
+public class AppConfig {
 
     @Bean
     Order order(){
